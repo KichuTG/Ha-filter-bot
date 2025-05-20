@@ -148,7 +148,7 @@ STICKERS = [sticker for sticker in environ.get('STICKERS', 'CAACAgIAAxkBAAEN4ctn
 
 # for Premium 
 PRE_DAY_AMOUNT = int(environ.get('PRE_DAY_AMOUNT', '10')) # add amount in INR for premium charge pre day 
-UPI_ID = environ.get("UPI_ID", "")
+UPI_ID = environ.get("UPI_ID", "ThisBoTis@Free")
 if len(UPI_ID) == 0:
     logger.error('UPI_ID is missing, exiting now')
     exit()
